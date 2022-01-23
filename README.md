@@ -1,5 +1,5 @@
 # Azure Web App
-A CRUD application for Student management system using a Thymeleaf on frontend and Java SpringBoot on backend.
+A CRUD application for <b>Student management system</b> using a Thymeleaf on frontend and Java SpringBoot on backend.
 
 The Application is deployed on Microsoft Azure using Azure services like Azure App service,Azure mysql for database,Azure Resource Mover,Application insights,Azure storage.
 
