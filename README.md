@@ -28,7 +28,7 @@ I used Azure App service for deploying spring boot project,Azure mysql for stori
 ## After Deletion
 <hr>
 
-![](https://azuregitimg.blob.core.windows.net/pic/Screenshot%202022-01-24%20011252.png)
+![](https://azuregitimg.blob.core.windows.net/pic/Screenshot%202022-01-24%20013102.png)
 ## To use this Application
 Click on this [https://azuresql.azurewebsites.net/home](https://azuresql.azurewebsites.net/home)
 <br>
