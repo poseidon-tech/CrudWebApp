@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Management System</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	>
+</head>
+<body>
+<div class="container">
+<h1>Student Management System</h1>
+<hr>
+<h2>Add Student</h2>
+<hr>
+<form action="#" class="was-validated" th:action=@{/saveStudent} th:object="${student}" method="post" id="id">
+
+<input type="text" th:field="*{fname}" placeholder="student first name" class="form-control mb-4 col-4" required>
+<input type="text" th:field="*{sname}" placeholder="student second name" class="form-control mb-4 col-4" required>
+<input type="text" th:field="*{branch}" placeholder="student branch" class="form-control mb-4 col-4" required>
+<input type="number" th:field="*{cgpa}"  placeholder="student Percentage Rounded off" class="form-control mb-4 col-4" required>
+<button type="submit" class="btn btn-primary">Save Student</button>
+</form>
+</div>
+</body>
+</html>
