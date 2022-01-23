@@ -9,15 +9,31 @@
 </head>
 <body>
 <div class="container">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/home">Azure Web App</a>
+    </nav>
 <h1>Student Management System</h1>
 <hr>
 <h2>Add Student</h2>
 <hr>
 <form action="#" class="was-validated" th:action=@{/saveStudent} th:object="${student}" method="post" id="id">
-
+<h5 style="color:green">First Name</h5>
 <input type="text" th:field="*{fname}" placeholder="student first name" class="form-control mb-4 col-4" required>
+<h5 style="color:green">Last Name</h5>
 <input type="text" th:field="*{sname}" placeholder="student second name" class="form-control mb-4 col-4" required>
-<input type="text" th:field="*{branch}" placeholder="student branch" class="form-control mb-4 col-4" required>
+<h5 style="color:green">Branch</h5>
+<select th:field="*{branch}" class="form-control mb-4 col-4">
+    <option th:value="CSE" th:text="CSE"></option>
+    <option th:value="IT" th:text="IT"></option>
+    <option th:value="ECE" th:text="ECE"></option>
+    <option th:value="EEE" th:text="EEE"></option>
+    <option th:value="EIE" th:text="EIE"></option>
+    <option th:value="ME" th:text="ME"></option>
+    <option th:value="CE" th:text="CE"></option>
+</select>
+<h5 style="color:green">Year</h5>
+<input type="number" th:field="*{year}"  placeholder="student year(1-4)" class="form-control mb-4 col-4" required>
+<h5 style="color:green">Percentage</h5>
 <input type="number" th:field="*{cgpa}"  placeholder="student Percentage Rounded off" class="form-control mb-4 col-4" required>
 <button type="submit" class="btn btn-primary">Save Student</button>
 </form>

@@ -17,6 +17,12 @@ public class StudentController {
 	@Autowired
 	StudentService studentservice;
 	//display list of services
+	@GetMapping("/home")
+	public String home()
+	{
+		
+		return "home";
+	}
 	@GetMapping("/")
 	public String viewHomePage(Model model)
 	{

@@ -20,6 +20,9 @@ public class Student {
 	private String branch;
 	@Column(name="Percentage")
 	private Float cgpa;
+	@Column(name="Year")
+	private Float year;
+	
 	
 	public int getId() {
 		return id;
@@ -50,6 +53,12 @@ public class Student {
 	}
 	public void setCgpa(Float cgpa) {
 		this.cgpa = cgpa;
+	}
+	public Float getYear() {
+		return year;
+	}
+	public void setYear(Float year) {
+		this.year =  year;
 	}
 
 }
