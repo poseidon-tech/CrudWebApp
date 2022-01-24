@@ -34,3 +34,4 @@ Click on this [https://azuresql.azurewebsites.net/home](https://azuresql.azurewe
 <br>
 Note:The site is slow as I used less computing power in azure for longetivity, this site may no longer run if azure free credits are used up.
 
+
