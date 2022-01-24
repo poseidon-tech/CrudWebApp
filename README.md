@@ -11,25 +11,26 @@ I used Azure App service for deploying spring boot project,Azure mysql for stori
 ## Home Page
 <hr>
 
-![](https://azuregitimg.blob.core.windows.net/pic/Screenshot%202022-01-23%20214642.png)
+![](https://github.com/poseidon-tech/img/blob/main/Screenshot%202022-01-23%20214642.png?raw=true)
 ## Student Details Page
 <hr>
 
-![](https://azuregitimg.blob.core.windows.net/pic/Screenshot%202022-01-23%20215813.png)
+![](https://github.com/poseidon-tech/img/blob/main/Screenshot%202022-01-23%20215813.png?raw=true)
 ## Add page
 <hr>
 
-![](https://azuregitimg.blob.core.windows.net/pic/Screenshot%202022-01-23%20220021.png)
+![](https://github.com/poseidon-tech/img/blob/main/Screenshot%202022-01-23%20220021.png?raw=true)
 ## Update page
 <hr>
 
-![](https://azuregitimg.blob.core.windows.net/pic/Screenshot%202022-01-23%20215936.png)
+![](https://github.com/poseidon-tech/img/blob/main/Screenshot%202022-01-23%20215936.png?raw=true)
 
 ## After Deletion
 <hr>
 
-![](https://azuregitimg.blob.core.windows.net/pic/Screenshot%202022-01-24%20013102.png)
+![](https://github.com/poseidon-tech/img/blob/main/Screenshot%202022-01-24%20013102.png?raw=true)
 ## To use this Application
 Click on this [https://azuresql.azurewebsites.net/home](https://azuresql.azurewebsites.net/home)
 <br>
 Note:The site is slow as I used less computing power in azure for longetivity, this site may no longer run if azure free credits are used up.
+
